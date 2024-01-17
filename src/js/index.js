@@ -1,12 +1,13 @@
-//import react into the bundle
 import React from "react";
 import ReactDOM from "react-dom";
 
-// include your styles into the webpack bundle
+// include my styles
 import "../styles/index.css";
+import "../styles/seconds-counter.css";
 
-//import your own components
-import Home from "./component/home.jsx";
+//import my main app
+import App from "./component/App.jsx";
+import Footer from "./component/footer.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<div><App /><Footer/></div>, document.querySelector("#app"));

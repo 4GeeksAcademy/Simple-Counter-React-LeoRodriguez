@@ -1,0 +1,14 @@
+.counter-display{
+    height: 60vh;
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.counter-display div{
+    display: inline-block;
+    font-size: 100px;
+    background-color: #595959;
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 10%;
+}
